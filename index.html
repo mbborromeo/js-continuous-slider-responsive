@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Continuous Javascript Slider with responsive layout</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <script aysnc src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+
+  <div id="header-pinned-container">
+    <div id="header" class="site-width">
+      <a href="#"><span id="logo-whimn"></span></a>
+
+      <div id="logo-myer-wrapper">
+        <span id="text-myer">
+          Brought to<br />
+          you by
+        </span>
+        <a href="#"><span id="logo-myer-header"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="body-wrapper">
+
+    <div id="banner" class="site-width centre-aligned text-centred">
+      <span id="logo-myer-banner">
+        <img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Flogo.png?1541650460067" alt="Myer" />
+      </span>
+      <span id="banner-text" class="centre-aligned">
+        whimn.com.au and Myer want to inspire you to spice up your fashion this summer.
+      </span>
+    </div>
+
+    <div id="article-row-1" class="full-width">
+      <div class="site-width centre-aligned">
+        <div id="author-description">
+          <span>
+            Story by Caitlin Chander | <a href="#">whimn.com.au</a>
+          </span>
+        </div>
+
+        <div class="content-width">
+          <h1 class="gold">FASHION FATIGUE CAN STRIKE WHEN YOU LEAST EXPECT IT.</h1>
+          <hr />
+
+          <p>
+            After three months of winter, my fashion light bulb has well and truly A blown out. I'm now at a point where I'm so sick at the sight of my mum—cut jeans and oversized sweater dresses that every morning I find myself irrationally at my wardrobe and throwing myself onto the bed in despair.
+          </p>
+          <p>
+            Dressing for the day is meant to inspire you, to get you up and going like an everyday YAS queen. So if your wardrobe leaves you stuck in bed with feelings of disdain, then we've worked with Myer ambassador Rachael Finch to bring you ways to pull yourself out of the depths of fashion boredom this season.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="article-row-2" class="full-width">
+      <a href="#" id="advertisement" class="centre-aligned">
+        <img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fcontent-image-1.png?1541650468035" alt="Shop now" />
+      </a>
+    </div>
+
+    <div id="layer-wrapper">
+      <div id="article-row-3" class="full-width clearfix">
+        <div class="site-width centre-aligned">
+          <div class="column-left">
+            <h2>SHAKE UP YOUR SHELVES</h2>
+            <hr />
+            <p>
+              Humans are inherently lazy and quite often we are drawn to routine, finding comfort in seeing the
+              same things day after day. This is the same for your wardrobe. If it's left in the same state
+              season to season, you're only going to reach for the items your eyes lay on first or that are
+              within reach because subconsciously, you just can't be bothered to think about it.
+            </p>
+            <p>
+              Breathe a bit of life into your wardrobe by moving things around. If you normally colour code your
+              clothes, switch it up and sort them out by style instead. Looking at things differently will help
+              those forgotten pieces.
+            </p>
+          </div>
+          <div class="column-right">
+            <img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fcontent-image-2.png?1541650466566" alt="Shelves photo" />
+          </div>
+        </div>
+        <div id="left-graphic-palm"></div>
+      </div>
+
+      <div id="article-row-4" class="full-width">
+        <div class="site-width centre-aligned">
+          <div class="content-width">
+            <h2>REMOVE ALL THE BLACK</h2>
+            <hr />
+            <p>
+              No need to freak out, this is only a temporary fix but one that will do you wonders.
+              Black clothing for me represents a comfortable but chic look. You could be rocking up to work wearing
+              joggers and a daggy t-shirt but if it's all black, it's sah farshun.
+            </p>
+            <p>
+              Get all the black out of your sight. Whether you throw your black clothing into the back of your
+              car or drop them off at your parents' house I don't care. Just get rid of it. After a week, you'll
+              find you're less dependent on black items that usually fill the gaps in your outfits. The benefit
+              of doing it at this time of the year is that clothing stores are thankfully blessing us with
+              colourful, summer tones. Then, reward yourself by taking yourself shopping to select some.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slider to go here... -->
+        <div id="slider-window" class="clearfix">
+          <ul>
+            <li><img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fslider-2.png?1541650469539" alt="" /></li>
+            <li><img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fslider-3.png?1541650470523" alt="" /></li>
+            <li><img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fslider-1.png?1541650462949" alt="" /></li>
+          </ul><!-- end image list -->
+        </div><!-- end slider-window -->
+      </div>
+
+
+      <div id="article-row-6" class="full-width">
+        <div class="site-width centre-aligned">
+          <div class="content-width">
+            <h2 class="gold">Doll up the basics</h2>
+            <hr />
+            <p>
+              If you ever find yourself erring on the side of caution and sticking to a basic tee with jeans,
+              try digging into your accessories to create some versatility. Rachael suggests playing with
+              statement pieces to zhoosh up an outfit: "A great pair of heels, a long drop earring, especially
+              from Christie Nicolaides, a tailored blazer or a bold lip colour.
+            </p>
+            <p>
+              Thankfully the warmer seasons are bringing colour and vibrancy to accessories. Play with
+              headscarves, statement earrings, chunky chains or bright shoes to spice things up. Be daring and
+              brave when it comes to your accessories and you'll be pleasantly surprised by the outcome.
+            </p>
+          </div>
+
+          <!-- Images left/right columns -->
+          <div id="image-tiles" class="clearfix">
+            <div class="column-left">
+              <img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fmosaic-1.png?1541650463285" alt="" />
+              <img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fmosaic-2.png?1541650463905" alt="" />
+            </div>
+            <div class="column-right">
+              <img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fmosaic-3.png?1541650469439" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end layer-wrapper -->
+
+    <div id="footer">
+      <img src="https://cdn.glitch.com/29e315c4-d615-47e1-83f7-fcd54241d914%2F4fe2938a-963f-4754-a48c-0af2e2df417d%252Fleaves-bottom.png?1541650469390" alt="" />
+    </div>
+
+  </div>
+  <!-- end body-wrapper -->
+
+</body>
+</html>
